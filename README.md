@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🚀 **DeepSeek: A Revolutionary Chatbot for Your Next.js Application**
 
-## Getting Started
+📖 **Description**
 
-First, run the development server:
+DeepSeek is a cutting-edge chatbot built using React and Next.js, designed to revolutionize the way users interact with your application. With its advanced AI-powered conversational interface, DeepSeek can understand and respond to user queries, providing a seamless and personalized experience. This README guide will walk you through the features, setup, and usage of DeepSeek, enabling you to integrate this powerful chatbot into your own Next.js application.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+✨ **Features**
+
+1. **Advanced AI-Powered Conversations**: DeepSeek uses OpenAI to generate intelligent and human-like responses to user queries, providing a seamless and personalized experience.
+2. **Multi-Platform Support**: DeepSeek is designed to work seamlessly across multiple platforms, including desktop, mobile, and web.
+3. **Customizable**: DeepSeek allows you to customize the chatbot's appearance, behavior, and responses to fit your application's brand and style.
+4. **Scalable**: DeepSeek is built using Next.js, ensuring that it can scale to meet the demands of your application.
+5. **Integration with Next.js**: DeepSeek is designed to work seamlessly with Next.js, allowing you to easily integrate it into your application.
+6. **Real-time Updates**: DeepSeek provides real-time updates, ensuring that users receive the most accurate and up-to-date information.
+7. **User Authentication**: DeepSeek supports user authentication, allowing you to restrict access to certain features or content.
+8. **Webhook Support**: DeepSeek supports webhooks, enabling you to receive notifications and updates from the chatbot.
+9. **Error Handling**: DeepSeek includes advanced error handling, ensuring that the chatbot remains stable and functional even in the event of errors.
+10. **Analytics**: DeepSeek provides analytics, allowing you to track user engagement, conversation metrics, and other key performance indicators.
+
+🧰 **Tech Stack**
+
+| Frontend | Backend | Tools |
+| --- | --- | --- |
+| React | Next.js | MongoDB, OpenAI, Clerk |
+|  |  | SVIX, Webhook |
+
+📁 **Project Structure**
+
+```
+deepseek/
+config/
+db.js
+middleware.ts
+assets/
+arrow_icon.svg
+arrow_icon_dull.svg
+logo_text.svg
+logo_icon.svg
+menu_icon.svg
+search_icon.svg
+profile_icon.svg
+copy_icon.svg
+package.json
+prism.css
+globals.css
+route.js
+layout.js
+models/
+User.js
+Chat.js
+components/
+App.js
+Home.js
+pages/
+_index.js
+api/
+api.js
+public/
+index.html
+README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+⚙️ **How to Run**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Setup**: Install the required dependencies by running `npm install` or `yarn install`.
+2. **Environment**: Set up your environment by creating a `.env` file and adding the required variables (e.g., `MONGODB_URI`, `OPENAI_API_KEY`, etc.).
+3. **Build**: Run `npm run build` or `yarn build` to build the application.
+4. **Deploy**: Deploy the application to your desired environment (e.g., Vercel, Netlify, etc.).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🧪 **Testing Instructions**
 
-## Learn More
+1. **Unit Testing**: Run `npm run test` or `yarn test` to execute unit tests.
+2. **Integration Testing**: Run `npm run test:integration` or `yarn test:integration` to execute integration tests.
 
-To learn more about Next.js, take a look at the following resources:
+👤 **Author**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Anmol Mishra
